@@ -1,0 +1,549 @@
+{
+  "Files": [
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\obj\\Debug\\net8.0\\scopedcss\\projectbundle\\Company.e-Tickets.PL.bundle.scp.css",
+      "PackagePath": "staticwebassets\\Company.e-Tickets.PL.bundle.scp.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\1b0c8b4b-1aaa-4ca0-b754-71a25a5d0d86R.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\1b0c8b4b-1aaa-4ca0-b754-71a25a5d0d86R.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\327f29b3-607d-44f8-94b6-81d82f07533bDresses, Jumpsuits & Rompers.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\327f29b3-607d-44f8-94b6-81d82f07533bDresses, Jumpsuits & Rompers.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\40357b81-81c5-433b-8c49-e045504f20647FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\40357b81-81c5-433b-8c49-e045504f20647FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\416d69ae-682b-4fe9-a85b-a563cffd8583Activewear, Fitness & Workout Clothes _ Fabletics by Kate Hudson.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\416d69ae-682b-4fe9-a85b-a563cffd8583Activewear, Fitness & Workout Clothes _ Fabletics by Kate Hudson.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\42c9efa3-cea0-4c64-a850-7bf8930b9d957FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\42c9efa3-cea0-4c64-a850-7bf8930b9d957FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\4b2eb90d-879c-459c-a6ff-557660d3ac00Así es la colección de Pull&Bear Primavera Verano 2017 - StyleLovely.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\4b2eb90d-879c-459c-a6ff-557660d3ac00Así es la colección de Pull&Bear Primavera Verano 2017 - StyleLovely.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\4f7acccf-6338-4e8f-afdf-f82bce60b2b8discount.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\4f7acccf-6338-4e8f-afdf-f82bce60b2b8discount.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\53750.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\53750.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\63bcbd9b-6efe-4a8f-a90e-7ba9ea5503e6Moody + Golden Hour Beach Session __ Kevin & Shannon  — Emily DeKoster Photography.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\63bcbd9b-6efe-4a8f-a90e-7ba9ea5503e6Moody + Golden Hour Beach Session __ Kevin & Shannon  — Emily DeKoster Photography.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\7f741552-ab0b-4430-9767-559eb1756c8eshop-8.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\7f741552-ab0b-4430-9767-559eb1756c8eshop-8.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\808b4b1f-c081-4e56-bcb3-a9f9604490ecshop-10.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\808b4b1f-c081-4e56-bcb3-a9f9604490ecshop-10.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\9294c11b-addb-4887-b3b1-b805ef02524053750.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\9294c11b-addb-4887-b3b1-b805ef02524053750.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\9ceb56bd-cf6c-4d88-8bea-5c50561cc327Galeria de fotografía en estudio - Fotógrafo Cristina Robles.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\9ceb56bd-cf6c-4d88-8bea-5c50561cc327Galeria de fotografía en estudio - Fotógrafo Cristina Robles.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\9dae2c9a-6ecc-4054-b5fa-bf6841289ebfdownload (2).jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\9dae2c9a-6ecc-4054-b5fa-bf6841289ebfdownload (2).jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\Back",
+      "PackagePath": "staticwebassets\\Files\\Imgs"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\Black.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\Black.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\Black.webp",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\Black.webp"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\Producer.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\Producer.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\R.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\R.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\a16e6393-8038-4cac-8234-cdee9fba4124shop-6.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\a16e6393-8038-4cac-8234-cdee9fba4124shop-6.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\a24dc67d-60fc-4f2e-9653-d95570f38447Bad Boy \uD83D\uDE08\uD83D\uDDA4 - NCT Jeno.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\a24dc67d-60fc-4f2e-9653-d95570f38447Bad Boy \uD83D\uDE08\uD83D\uDDA4 - NCT Jeno.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\a62ef9f5-03ba-4598-90f0-0f6ff73a5486shop-8.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\a62ef9f5-03ba-4598-90f0-0f6ff73a5486shop-8.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\b321aca3-d84c-4905-bc92-03235d02375dshop-10.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\b321aca3-d84c-4905-bc92-03235d02375dshop-10.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\c7f93049-5e54-43a2-b465-5d5cef644867Top Photography Tips for Shooting Better Portraits in 2020 — Realm.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\c7f93049-5e54-43a2-b465-5d5cef644867Top Photography Tips for Shooting Better Portraits in 2020 — Realm.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\cb48a607-efa8-4bec-aa3d-034cb3cc9fc5download (2).jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\cb48a607-efa8-4bec-aa3d-034cb3cc9fc5download (2).jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\d4e9a5e8-aad8-4974-bfc5-a79aab8030e6shop-10.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\d4e9a5e8-aad8-4974-bfc5-a79aab8030e6shop-10.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\dde3901d-0f1a-46b2-a151-217248a3e32e7FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\dde3901d-0f1a-46b2-a151-217248a3e32e7FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\depositphotos_73179751-stock-illustration-vector-logo-slate-board-for.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\depositphotos_73179751-stock-illustration-vector-logo-slate-board-for.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\e195b46e-93fc-465c-9923-4aed04b0ad8cdownload (1).jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\e195b46e-93fc-465c-9923-4aed04b0ad8cdownload (1).jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\e23a6d1e-3b87-4cd0-bbf1-405317c5c376shop-6.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\e23a6d1e-3b87-4cd0-bbf1-405317c5c376shop-6.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\eaebd7ea-7e31-40f2-8798-efead5c10e43Flecked Crop Aran Cardigan, Grey.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\eaebd7ea-7e31-40f2-8798-efead5c10e43Flecked Crop Aran Cardigan, Grey.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\fca0a26d-0769-4e9d-8b0d-9b4f999833bdDresses, Jumpsuits & Rompers.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\fca0a26d-0769-4e9d-8b0d-9b4f999833bdDresses, Jumpsuits & Rompers.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\global-home-bg-comp.png",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\global-home-bg-comp.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\lara-crofts-neck-looks-unnatural-in-the-new-poster-for-tomb-raider.png",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\lara-crofts-neck-looks-unnatural-in-the-new-poster-for-tomb-raider.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\producer2.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\producer2.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\producer3.jpg",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\producer3.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\project-k (1).webp",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\project-k (1).webp"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\Imgs\\project-k.webp",
+      "PackagePath": "staticwebassets\\Files\\Imgs\\project-k.webp"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\40357b81-81c5-433b-8c49-e045504f20647FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\40357b81-81c5-433b-8c49-e045504f20647FT Wooden Wedding Arch Heptagonal Garden Arbor, Rustic Backdrop Stand For Photo Booth.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\416d69ae-682b-4fe9-a85b-a563cffd8583Activewear, Fitness & Workout Clothes _ Fabletics by Kate Hudson.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\416d69ae-682b-4fe9-a85b-a563cffd8583Activewear, Fitness & Workout Clothes _ Fabletics by Kate Hudson.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\4b2eb90d-879c-459c-a6ff-557660d3ac00Así es la colección de Pull&Bear Primavera Verano 2017 - StyleLovely.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\4b2eb90d-879c-459c-a6ff-557660d3ac00Así es la colección de Pull&Bear Primavera Verano 2017 - StyleLovely.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\4f7acccf-6338-4e8f-afdf-f82bce60b2b8discount.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\4f7acccf-6338-4e8f-afdf-f82bce60b2b8discount.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\53750.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\53750.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\63bcbd9b-6efe-4a8f-a90e-7ba9ea5503e6Moody + Golden Hour Beach Session __ Kevin & Shannon  — Emily DeKoster Photography.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\63bcbd9b-6efe-4a8f-a90e-7ba9ea5503e6Moody + Golden Hour Beach Session __ Kevin & Shannon  — Emily DeKoster Photography.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\7f741552-ab0b-4430-9767-559eb1756c8eshop-8.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\7f741552-ab0b-4430-9767-559eb1756c8eshop-8.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\808b4b1f-c081-4e56-bcb3-a9f9604490ecshop-10.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\808b4b1f-c081-4e56-bcb3-a9f9604490ecshop-10.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\9ceb56bd-cf6c-4d88-8bea-5c50561cc327Galeria de fotografía en estudio - Fotógrafo Cristina Robles.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\9ceb56bd-cf6c-4d88-8bea-5c50561cc327Galeria de fotografía en estudio - Fotógrafo Cristina Robles.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\9dae2c9a-6ecc-4054-b5fa-bf6841289ebfdownload (2).jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\9dae2c9a-6ecc-4054-b5fa-bf6841289ebfdownload (2).jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\Back",
+      "PackagePath": "staticwebassets\\Files\\UsesImg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\Black.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\Black.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\Black.webp",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\Black.webp"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\Producer.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\Producer.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\R.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\R.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\a16e6393-8038-4cac-8234-cdee9fba4124shop-6.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\a16e6393-8038-4cac-8234-cdee9fba4124shop-6.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\a24dc67d-60fc-4f2e-9653-d95570f38447Bad Boy \uD83D\uDE08\uD83D\uDDA4 - NCT Jeno.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\a24dc67d-60fc-4f2e-9653-d95570f38447Bad Boy \uD83D\uDE08\uD83D\uDDA4 - NCT Jeno.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\b321aca3-d84c-4905-bc92-03235d02375dshop-10.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\b321aca3-d84c-4905-bc92-03235d02375dshop-10.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\c7f93049-5e54-43a2-b465-5d5cef644867Top Photography Tips for Shooting Better Portraits in 2020 — Realm.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\c7f93049-5e54-43a2-b465-5d5cef644867Top Photography Tips for Shooting Better Portraits in 2020 — Realm.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\d4e9a5e8-aad8-4974-bfc5-a79aab8030e6shop-10.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\d4e9a5e8-aad8-4974-bfc5-a79aab8030e6shop-10.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\depositphotos_73179751-stock-illustration-vector-logo-slate-board-for.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\depositphotos_73179751-stock-illustration-vector-logo-slate-board-for.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\e195b46e-93fc-465c-9923-4aed04b0ad8cdownload (1).jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\e195b46e-93fc-465c-9923-4aed04b0ad8cdownload (1).jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\eaebd7ea-7e31-40f2-8798-efead5c10e43Flecked Crop Aran Cardigan, Grey.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\eaebd7ea-7e31-40f2-8798-efead5c10e43Flecked Crop Aran Cardigan, Grey.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\global-home-bg-comp.png",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\global-home-bg-comp.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\lara-crofts-neck-looks-unnatural-in-the-new-poster-for-tomb-raider.png",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\lara-crofts-neck-looks-unnatural-in-the-new-poster-for-tomb-raider.png"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\producer2.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\producer2.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\producer3.jpg",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\producer3.jpg"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\project-k (1).webp",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\project-k (1).webp"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\Files\\UsesImg\\project-k.webp",
+      "PackagePath": "staticwebassets\\Files\\UsesImg\\project-k.webp"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\css\\AddingItem.css",
+      "PackagePath": "staticwebassets\\css\\AddingItem.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\css\\ButtonsStyle.css",
+      "PackagePath": "staticwebassets\\css\\ButtonsStyle.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\css\\MovieCard.css",
+      "PackagePath": "staticwebassets\\css\\MovieCard.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\css\\Producer.css",
+      "PackagePath": "staticwebassets\\css\\Producer.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\css\\site.css",
+      "PackagePath": "staticwebassets\\css\\site.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\favicon.ico",
+      "PackagePath": "staticwebassets\\favicon.ico"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\js\\site.js",
+      "PackagePath": "staticwebassets\\js\\site.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\LICENSE",
+      "PackagePath": "staticwebassets\\lib\\bootstrap"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-grid.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-reboot.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap-utilities.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\css\\bootstrap.rtl.min.css.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.bundle.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.esm.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map",
+      "PackagePath": "staticwebassets\\lib\\bootstrap\\dist\\js\\bootstrap.min.js.map"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation-unobtrusive\\jquery.validate.unobtrusive.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation\\LICENSE.md",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\LICENSE.md"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation\\dist\\additional-methods.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\additional-methods.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery-validation\\dist\\jquery.validate.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery-validation\\dist\\jquery.validate.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery\\LICENSE.txt",
+      "PackagePath": "staticwebassets\\lib\\jquery\\LICENSE.txt"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery\\dist\\jquery.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.js",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.js"
+    },
+    {
+      "Id": "D:\\.NET\\MVC_Projects\\Company.e-Tickets.Soluation\\Company.e-Tickets.PL\\wwwroot\\lib\\jquery\\dist\\jquery.min.map",
+      "PackagePath": "staticwebassets\\lib\\jquery\\dist\\jquery.min.map"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.Company.e-Tickets.PL.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.build.Company.e-Tickets.PL.props",
+      "PackagePath": "build\\Company.e-Tickets.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildMultiTargeting.Company.e-Tickets.PL.props",
+      "PackagePath": "buildMultiTargeting\\Company.e-Tickets.PL.props"
+    },
+    {
+      "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.buildTransitive.Company.e-Tickets.PL.props",
+      "PackagePath": "buildTransitive\\Company.e-Tickets.PL.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,63 @@
+﻿@model RegisterViewModel
+@{
+    ViewData["Title"] = "Register";
+    Layout = "~/Views/Shared/_AuthLayout.cshtml";
+}
+
+<div class="text-danger" asp-validation-summary="All"></div>
+<div class="container">
+    <div class="card">
+        <div class="card-heading">
+            <!-- Add a meaningful title for the registration form here -->
+            <h2>Register for an Account</h2>
+        </div>
+
+        <form class="card-form" asp-action="Register" enctype="multipart/form-data">
+            <div class="input">
+                <input asp-for="FullName" class="input-field" required />
+                <label class="input-label">Full Name</label>
+                <span asp-validation-for="FullName" class="text-danger"></span>
+            </div>
+            <div class="input">
+                <input asp-for="UserName" class="input-field" required />
+                <label class="input-label">User Name</label>
+                <span asp-validation-for="UserName" class="text-danger"></span>
+            </div>
+
+            <div class="input">
+                <input asp-for="Email" class="input-field" rows="4" required />
+                <label class="input-label">Email</label>
+                <span asp-validation-for="Email" class="text-danger"></span>
+
+              
+        </div>
+
+            <div class="input">
+                <input asp-for="Password" class="input-field" rows="4" required />
+                <label class="input-label">Password</label>
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+
+            <div class="input">
+                <input asp-for="ConfirmPassword" class="input-field" rows="4" required />
+                <label class="input-label">Confirm Password</label>
+                <span asp-validation-for="ConfirmPassword" class="text-danger"></span>
+            </div>
+
+            <div class="action">
+                <button type="submit" class="addbtn" style="background-color : darkslategray;">Register</button>
+            </div>
+        </form>
+
+        <div class="card-info">
+            <p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+            <p>Have an Account?  <a asp-action="Login">Sign in </a></p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

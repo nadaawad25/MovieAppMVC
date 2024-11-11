@@ -1,0 +1,163 @@
+html {
+  font-size: 14px;
+}
+
+@media (min-width: 768px) {
+  html {
+    font-size: 16px;
+  }
+}
+
+.btn:focus, .btn:active:focus, .btn-link.nav-link:focus, .form-control:focus, .form-check-input:focus {
+  box-shadow: 0 0 0 0.1rem white, 0 0 0 0.25rem #258cfb;
+}
+
+html {
+  position: relative;
+  min-height: 100%;
+}
+
+body {
+    margin-bottom: 60px;
+    background: black;
+    font-family: courier;
+}
+.navbar-nav .nav-link,
+.navbar-nav .dropdown-toggle {
+    color: white !important; /* Make the text white */
+}
+
+.navbar-nav .dropdown-menu .dropdown-item {
+    color: black !important; /* Keep dropdown items black for contrast */
+}
+
+.navbar-nav .nav-link:hover,
+.navbar-nav .dropdown-toggle:hover {
+    color: #9ac7fa !important; /* Add a hover effect if needed */
+}
+
+.form-control {
+    padding-top: 8px; /* Adjust padding as necessary */
+    padding-bottom: 8px; /* Adjust padding as necessary */
+    /* Optional: Add margin-left to create space from the nav items */
+   /* Adjust this value based on your layout */
+}
+.form-control {
+    width: 100%;
+    padding: 12px 24px;
+    background-color: transparent; /* Keep  it transparent */
+
+    font-size: 14px;
+    line-height: 18px;
+    color: whitesmoke; /* Text color for typed input */
+    background-size: 18px 18px;
+    background-position: 95% center;
+    border-radius: 10px;
+    border: 1px solid whitesmoke; /* Border color */
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg xmlns='http://www.w3.org/2000/svg' width='24' height='24' viewBox='0 0 24 24'%3E%3Cpath fill='white' d='M15.5 14h-.79l-.28-.27C15.41 12.59 16 11.11 16 9.5 16 5.91 13.09 3 9.5 3S3 5.91 3 9.5 5.91 16 9.5 16c1.61 0 3.09-.59 4.23-1.57l.27.28v.79l5 4.99L20.49 19l-4.99-5zm-6 0C7.01 14 5 11.99 5 9.5S7.01 5 9.5 5 14 7.01 14 9.5 11.99 14 9.5 14z'/%3E%3Cpath d='M0 0h24v24H0z' fill='none'/%3E%3C/svg%3E");
+    backface-visibility: hidden; /* Keep this for smoother rendering */
+    background-repeat: no-repeat; /* Prevent background image repetition */
+    transition: none; /* Ensure no transition delays */
+}
+
+    /* Placeholder styles */
+    .form-control::placeholder {
+        color: whitesmoke; /* Light white for placeholder */
+        text-transform: uppercase; /* Uppercase placeholder text */
+        backface-visibility: hidden; /* Keep this for smoother rendering */
+    }
+
+    /* Hover and focus styles */
+    .form-control:hover,
+    .form-control:focus {
+        background-color: transparent; /* Keep background transparent */
+        outline: none; /* Remove outline */
+        border-color: black; /* Optional: Change border color on focus */
+        backface-visibility: hidden; /* Keep this for smoother rendering */
+        color: whitesmoke; /* Keep text color */
+    }
+
+    /* Additional styles to remove the blue border */
+    .form-control:focus {
+        box-shadow: none; /* Remove any box-shadow that might appear */
+        border-color: whitesmoke; /* Keep border color the same on focus */
+
+ }
+
+/* For Chrome and Safari */
+input:focus {
+  outline: none; /* Ensures no outline for input elements */
+
+}
+
+
+
+
+
+
+/******USer Index*/
+body {
+    margin: 0;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: black;
+
+}
+
+table {
+    background-color: #212529; /* Darker background for the table */
+    color: #f8f9fa; /* Light text */
+}
+
+    table th, table td {
+        border: 1px solid #6c757d; /* Light border */
+        color: #f8f9fa;
+    }
+
+.alert {
+    /**/ background-color: #222;
+     /* Dark alert background */
+    color: #f8f9fa; /* Light text */
+}
+
+.form-control {
+    background-color: #495057; /* Dark input background */
+    color: #f8f9fa; /* Light text */
+    border: 1px solid #222; /* Light border */
+}
+
+.btn-info {
+    background-color: transparent; /* Button color */
+    color: #f8f9fa;
+    margin-top: 5px;
+}
+/***End of USer index*/
+
+/******Detials USer****/
+body {
+    background-color: #343a40; /* Dark background */
+    color: #f8f9fa; /* Light text color */
+}
+
+.form-group label {
+    color: #f8f9fa; /* Light text for labels */
+}
+
+.form-control {
+    background-color: #495057; /* Dark input background */
+    color: #f8f9fa; /* Light text for input fields */
+    border: 1px solid #6c757d; /* Light border */
+}
+
+    .form-control[readonly] {
+        background-color: #6c757d; /* Slightly darker background for read-only fields */
+        color: #f8f9fa; /* Light text for read-only fields */
+    }
+
+input::placeholder {
+    color: #ced4da; /* Light placeholder text */
+}
+
+
+/**End Detials ****/

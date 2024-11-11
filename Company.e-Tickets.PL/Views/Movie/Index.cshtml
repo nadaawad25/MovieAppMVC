@@ -1,0 +1,67 @@
+﻿@model IEnumerable<MovieViewModel>
+
+@{
+    ViewData["Title"] = "Movies";
+}
+
+
+<div class="movie_container">
+
+    @foreach (var item in Model)
+    {
+        <div class="movie_card" id="@item.Id">
+            <div class="info_section">
+                <div class="movie_header">
+                    <img class="locandina" style="max-width:150px" src="~/Files/Imgs/@item.ImageUrl" alt="Actor" />
+                    <h1>@item.Name</h1>
+
+                    <h4>@item.Cinema.Name</h4>
+
+                    @* <span class="minutes">hour</span> *@
+                    <p class="status">
+                     
+                        @if (DateTime.Now >= item.StartDate && DateTime.Now < @item.EndDate)
+                        {
+                            <span class="badge bg-success">AVAILABLE</span>
+
+                        }
+
+                        else if (DateTime.Now > @item.EndDate)
+                        {
+                            <span class="badge bg-danger">EXPIRED </span>
+
+                        }
+                        else
+                        {
+                            <span class="badge bg-warning">UPCOMING </span>
+                        }
+                    </p>
+                    <p class="type" >@item.MovieCategory</p>
+                    @* <p class="type">@item.MovieCategory</p> *@
+                    <p class="dates">Start Date: @item.StartDate.ToShortDateString() | End Date: @item.EndDate.ToShortDateString()</p>
+                    
+                </div>
+                <div class="movie_desc">
+                    <p class="text">@item.Description</p>
+                    <div class="movie_social">
+                        <ul>
+                            <li>
+                                <i class="material-icons cart" title="Add to Cart">shopping_cart</i>
+                            </li>
+                            <li>
+                                <i class="material-icons details" title="Show Details">info</i>
+                            </li>
+                        </ul>
+                    </div>
+                 
+                </div>
+                
+            </div>
+            @{
+                var backgroundUrl = Url.Content($"~/Files/Imgs/{item.Background}");
+            }
+            <div class="blur_back" style="background-image: url('@backgroundUrl')"></div>
+        </div>
+    }
+</div>
+    }

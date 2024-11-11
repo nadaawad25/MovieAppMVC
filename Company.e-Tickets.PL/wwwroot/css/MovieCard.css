@@ -1,0 +1,862 @@
+﻿
+/*
+    /*@import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,700,800');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    background: black;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.movie_card {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 350px;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+    .movie_card:hover {
+        transform: scale(1.02);
+    }
+
+.info_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.movie_header {
+    position: relative;
+    padding: 25px;
+    height: 40%;
+}
+
+    .movie_header h1 {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .movie_header h4 {
+        color: #9ac7fa;
+        font-weight: 400;
+    }
+
+.minutes {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px;
+    border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.13);
+}
+
+.type {
+    display: inline-block;
+    color: #cee4fd;
+    margin-left: 10px;
+}
+
+.locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 120px;
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.5);
+}
+
+.movie_desc {
+    padding: 25px;
+    height: 50%;
+}
+
+    .movie_desc .text {
+        color: #cfd6e1;
+    }
+
+.movie_social {
+    height: 10%;
+    padding-left: 15px;
+    padding-bottom: 20px;
+}
+
+    .movie_social ul {
+        list-style: none;
+        padding: 0;
+    }
+
+    .movie_social li {
+        display: inline-block;
+        color: rgba(255,255,255,0.4);
+        transition: color 0.3s;
+        transition-delay: 0.15s;
+        margin: 0 10px;
+    }
+
+        .movie_social li:hover {
+            color: rgba(255,255,255,0.8);
+        }
+
+    .movie_social i {
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+.blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .movie_header {
+        width: 60%;
+    }
+
+    .movie_desc {
+        width: 50%;
+    }
+
+    .info_section {
+        background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+    }
+
+    .blur_back {
+        width: 80%;
+        background-position: -100% 10% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movie_card {
+        width: 95%;
+        margin: 70px auto;
+        min-height: 350px;
+        height: auto;
+    }
+
+    .blur_back {
+        width: 100%;
+        background-position: 50% 50% !important;
+    }
+
+    .movie_header {
+        width: 100%;
+        margin-top: 85px;
+    }
+
+    .movie_desc {
+        width: 100%;
+    }
+
+    .info_section {
+        background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
+        display: inline-grid;
+    }
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/ /* Space between cards */
+/*margin: 0 auto;*/ /* Center the container */
+/*max-width: 1200px;*/ /* Limit the width of the container */
+/*}
+
+.movie_card {
+    flex: 0 0 calc(50% - 20px);*/ /* Adjust width for two cards in a row */
+/*margin: 10px;*/ /* Add some space around the cards */
+/*}*/
+
+/* Optional: To maintain the aspect ratio and responsiveness */
+/*@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);*/ /* Stacks cards on small screens */
+/*}
+}
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/ /* Space between cards */
+/*margin: 0 auto;*/ /* Center the container */
+
+/*}
+
+.movie_card {
+    flex: 0 0 calc(20% - 20px);*/ /* Adjust width for two cards in a row */
+/*margin: 10px;*/ /* Add some space around the cards */
+/*}*/
+
+/* Optional: To maintain the aspect ratio and responsiveness */
+/*@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);*/ /* Stacks cards on small screens */
+/*}
+}
+
+
+.movie_card {
+    position: relative;
+    display: block;
+    width: 50%;*/ /* تقليل عرض الكارد */
+/*height: 350px;*/ /* الارتفاع كما هو */
+/*margin: 20px auto;*/ /* تقليل المسافة العلوية */
+/*overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(90% - 20px);*/ /* عرض أكبر قليلاً على الشاشات الصغيرة */
+/*height: auto;*/ /* السماح بالارتفاع التلقائي */
+/*}
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;*/ /* مساحة بين الكاردز */
+/*margin: 0 auto;*/ /* مركز الحاوية */
+/*max-width: 1200px;*/ /* الحد الأقصى لعرض الحاوية */
+/*}
+
+.movie_card {
+    flex: 0 0 calc(25% - 20px);*/ /* تكيف العرض لعرض 4 كاردز في الصف */
+/*margin: 10px;*/ /* إضافة بعض المساحة حول الكاردز */
+/*}*/
+
+/* لإبقاء التصميم متجاوبًا */
+/*@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);*/ /* كارد واحد في الصف على الشاشات الصغيرة */
+/*}
+}*/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    background: black;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.movie_card {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 400px;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+    .movie_card:hover {
+        transform: scale(1.02);
+    }
+
+.info_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.movie_header {
+    position: relative;
+    padding: 25px;
+    height: 50%;
+}
+
+    .movie_header h1 {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .movie_header h4 {
+        color: #9ac7fa;
+        font-weight: 400;
+    }
+
+
+
+.type {
+    display: inline-block;
+    color: #cee4fd;
+    margin-left: 10px;
+}
+
+.locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 120px;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.dates {
+    position: relative;
+    /* Adds some space above the date text */
+    margin-bottom: 40px;
+    color: #cee4fd; /* Change to your desired color */
+    font-size: 12px; /* Adjust font size */
+}
+.movie_desc {
+   
+   padding-left:25px;
+    height: 50%;
+}
+
+    .movie_desc .text {
+        color: #cfd6e1;
+    }
+
+
+
+    .movie_social ul {
+        list-style: none;
+        padding:0;
+    }
+
+    .movie_social li {
+        display: inline-block;
+        color: rgba(255, 255, 255, 0.4);
+        transition: color 0.3s;
+        transition-delay: 0.15s;
+       margin-right:15px;
+    }
+
+        .movie_social li:hover {
+            color: rgba(255, 255, 255, 0.8);
+        }
+
+    .movie_social i {
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+
+@media screen and (min-width: 768px) {
+    .movie_header {
+        width: 60%;
+    }
+
+    .movie_desc {
+        width: 50%;
+    }
+
+    .info_section {
+        background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+    }
+
+  
+}
+
+@media screen and (max-width: 768px) {
+    .movie_card {
+        width: 95%;
+        margin: 70px auto;
+        min-height: 350px;
+        height: auto;
+    }
+
+   
+
+    .movie_header {
+        width: 100%;
+        margin-top: 85px;
+    }
+
+    .movie_desc {
+        width: 100%;
+    }
+
+    .info_section {
+        background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
+        display: inline-grid;
+    }
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  
+    max-width: 1200px; 
+}
+
+.movie_card {
+   
+    flex: 0 0 calc(60% - 30px);
+    margin: 10px;
+}
+.movie_social {
+    height: 20%;
+    
+    
+}
+
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);  
+    }
+}
+
+/*********/
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    background: white;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap; /* Allow cards to wrap */
+    justify-content: space-between; /* Space between cards */
+    max-width: 1200px; /* Limit the width of the container */
+    margin: 0 auto; /* Center the container */
+}
+
+.movie_card {
+    position: relative;
+   display:inline-block;
+    width: calc(40% - 50px); /* Adjust width for three cards in a row with margins */
+    margin: 10px; /* Add some space around the cards */
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+    .movie_card:hover {
+        transform: scale(1.02);
+    }
+
+/* Your existing styles follow */
+.info_section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.movie_header {
+    position: relative;
+    padding: 25px;
+    height: 50%;
+}
+
+    .movie_header h1 {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .movie_header h4 {
+        color: #9ac7fa;
+        font-weight: 400;
+    }
+
+
+
+.type {
+    display: inline-block;
+    color: #cee4fd;
+    margin-left: 10px;
+}
+
+.locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 120px;
+    box-shadow: 0 0 20px -10px rgba(0, 0, 0, 0.5);
+}
+
+.dates {
+    position: relative;
+    margin-bottom: 40px;
+    color: #cee4fd;
+    font-size: 12px;
+}
+
+.movie_desc {
+    padding-left: 25px;
+    height: 50%;
+}
+
+    .movie_desc .text {
+        color: #cfd6e1;
+    }
+
+.movie_social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.movie_social li {
+    display: inline-block;
+    color: rgba(255, 255, 255, 0.4);
+    transition: color 0.3s;
+    transition-delay: 0.15s;
+    margin-right: 15px;
+}
+
+    .movie_social li:hover {
+        color: rgba(255, 255, 255, 0.8);
+    }
+
+.movie_social i {
+    font-size: 19px;
+    cursor: pointer;
+}
+
+@media screen and (min-width: 768px) {
+    .movie_header {
+        width: 60%;
+    }
+
+    .movie_desc {
+        width: 50%;
+    }
+
+    .info_section {
+        background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movie_card {
+        width: calc(100% - 20px); /* Stacks cards on small screens */
+        margin: 10px; /* Space around the cards */
+    }
+
+    .movie_header {
+        width: 100%;
+        margin-top: 85px;
+    }
+
+    .movie_desc {
+        width: 100%;
+    }
+
+    .info_section {
+        background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
+        display: inline-grid;
+    }
+}
+
+.movie_container {
+    display: flex; /* Use flexbox for layout */
+    flex-wrap: wrap; /* Allow wrapping of cards */
+    justify-content: space-between; /* Space out cards evenly */
+    max-width: 1200px; /* Optional: Set a maximum width */
+    margin: 0 auto; /* Center the container */
+}
+
+.movie_card {
+    flex: 0 0 calc(50% - 20px); /* Adjust width of cards for three in a row */
+    margin: 10px; /* Space around cards */
+    height: auto; /* Allow height to adjust */
+}
+
+/* Adjust for smaller screens */
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px); /* Stack cards on small screens */
+    }
+}
+.blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+/*******************/
+
+   
+* {
+    box-sizing: border-box;
+    margin: 0;
+}
+
+html, body {
+    margin: 0;
+    font-family: 'Montserrat', helvetica, arial, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    background: black;
+}
+
+.movie_card {
+    position: relative;
+    display: block;
+    width: 800px;
+    height: 300px;
+    margin: 100px auto;
+    overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+    .movie_card:hover {
+        transform: scale(1.02);
+    }
+
+.info_section {
+    position: relative;
+    width: 110%;
+  
+    height: 100%;
+    background-blend-mode: multiply;
+    z-index: 2;
+    border-radius: 10px;
+}
+
+.movie_header {
+    position: relative;
+    padding: 25px;
+    height: 40%;
+}
+
+    .movie_header h1 {
+        color: #fff;
+        font-weight: 400;
+    }
+
+    .movie_header h4 {
+        color: #9ac7fa;
+        font-weight: 400;
+    }
+
+.minutes {
+    display: inline-block;
+    margin-top: 10px;
+    color: #fff;
+    padding: 5px;
+    /*border-radius: 5px;
+    border: 1px solid rgba(255,255,255,0.13);*/
+}
+.status {
+    display: inline-block;
+    color:black;
+   
+}
+
+.type {
+    display: inline-block;
+    color: #cee4fd;
+    margin-left: 10px;
+}
+
+.locandina {
+    position: relative;
+    float: left;
+    margin-right: 20px;
+    height: 120px;
+    box-shadow: 0 0 20px -10px rgba(0,0,0,0.5);
+}
+
+.movie_desc {
+    padding: 25px;
+    height: 50%;
+}
+
+    .movie_desc .text {
+        color: #cfd6e1;
+    }
+
+.movie_social {
+    height: 10%;
+   
+}
+
+    .movie_social ul {
+        list-style: none;
+       
+    }
+
+    .movie_social li {
+        display: inline-block;
+        color: rgba(255,255,255,0.4);
+        transition: color 0.3s;
+        transition-delay: 0.15s;
+      margin-right:10px;
+    }
+
+        .movie_social li:hover {
+            color: rgba(255,255,255,0.8);
+        }
+
+    .movie_social i {
+        font-size: 19px;
+        cursor: pointer;
+    }
+
+.blur_back {
+    position: absolute;
+    top: 0;
+    z-index: 1;
+    height: 100%;
+    right: 0;
+    background-size: cover;
+    border-radius: 11px;
+}
+
+@media screen and (min-width: 768px) {
+    .movie_header {
+        width: 60%;
+    }
+
+    .movie_desc {
+        width: 50%;
+    }
+
+    .info_section {
+        background: linear-gradient(to right, #0d0d0c 50%, transparent 100%);
+    }
+
+    .blur_back {
+        width: 80%;
+        background-position: -100% 10% !important;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .movie_card {
+        width: 95%;
+        margin: 70px auto;
+        min-height: 350px;
+        height: auto;
+    }
+
+    .blur_back {
+        width: 100%;
+        background-position: 50% 50% !important;
+    }
+
+    .movie_header {
+        width: 100%;
+        margin-top: 80px;
+    }
+
+    .movie_desc {
+        width: 100%;
+    }
+
+    .info_section {
+        background: linear-gradient(to top, rgb(20, 20, 19) 50%, transparent 100%);
+        display: inline-grid;
+    }
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+margin: 0 auto;  
+max-width: 1200px;   
+}
+
+.movie_card {
+    flex: 0 0 calc(50% - 10px); 
+margin: 10px;  
+}
+
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);  Stacks cards on small screens 
+}
+}
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;  Space between cards 
+margin: 0 auto;  Center the container 
+
+}
+
+.movie_card {
+    flex: 0 0 calc(20% - 20px);  Adjust width for two cards in a row 
+margin: 10px;  Add some space around the cards 
+}
+
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);  Stacks cards on small screens 
+}
+}
+
+
+.movie_card {
+    position: relative;
+    display: block;
+    width: 50%;  
+height: 400px; 
+margin: 20px auto;  
+overflow: hidden;
+    border-radius: 10px;
+    transition: all 0.4s;
+}
+
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(90% - 20px);   
+height: auto;   
+}
+}
+
+.movie_container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+margin: 0 auto; 
+max-width: 1200px;  
+}
+
+.movie_card {
+    flex: 0 0 calc(100% - 70px); 
+margin: 10px;
+}
+@media (max-width: 768px) {
+    .movie_card {
+        flex: 0 0 calc(100% - 20px);
+    }
+}

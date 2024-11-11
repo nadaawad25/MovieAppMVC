@@ -1,0 +1,74 @@
+﻿.action {
+    display: flex;
+    justify-content: space-between;
+    gap: 1rem;
+    margin-top: 2rem;
+}
+
+.actionbtn,
+.actionbtn2,
+.deletebtn2,
+.addbtn {
+    flex: 1;
+    font-size: 1.25rem;
+    padding: 0.2em;
+    border-radius: 6px;
+    color: aliceblue;
+    transition: background-color 0.3s;
+}
+
+.actionbtn {
+    background-color: transparent;
+    border: 2px solid aliceblue;
+}
+  
+    .actionbtn:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+    }
+
+    .actionbtn:focus {
+        outline: 0;
+    }
+
+/* Details Button Edit */
+.actionbtn2 {
+    background-color: darkgoldenrod;
+    border: none;
+}
+.addbtn {
+    background-color: darkgreen;
+    border: none;
+}
+    .addbtn:hover {
+        background-color: rgba(255, 255, 255, 0.1);
+        background-color: transparent;
+        border: 2px solid aliceblue;
+    }
+.actionbtn2:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+    background-color: transparent;
+    border: 2px solid aliceblue;
+}
+
+    .actionbtn2:focus {
+        outline: 0;
+    }
+
+ /* Details Button Edit */
+.deletebtn2 {
+    background-color: darkred;
+    border: none;
+}
+
+    .deletebtn2:hover {
+        background-color: darkred;
+    }
+
+    .deletebtn2:focus {
+        outline: 0;
+    }
+    .action{
+      margin:40px;
+    }
+
+

@@ -1,0 +1,69 @@
+﻿@model ActorViewModel
+@{
+    ViewData["Title"] = Model.FullName;
+}
+
+<div class="text-danger" asp-validation-summary="All"></div>
+<div class="container">
+    <div class="card">
+        <div class="card-heading">
+            <h2>@Model.FullName</h2>
+        </div>
+
+        <form class="card-form" enctype="multipart/form-data">
+            @if (Model.ProfilePictureURL is not null)
+            {
+                <div class="card-image">
+                    <div class="input">
+
+                        <img id="imagePreview" src="~/Files/Imgs/@Model.ProfilePictureURL" alt="Uploaded Image Preview" />
+                    </div>
+
+                </div>
+            }
+
+            <div class="input">
+                <input asp-for="FullName" class="input-field" required readonly />
+            </div>
+
+            <div class="input">
+                <textarea asp-for="Bio" class="input-field" rows="4" required readonly></textarea>
+            </div>
+
+            <div class="action">
+                <button class="actionbtn" type="submit" asp-action="Index" asp-controller="Actor">Back</button>
+                <button class="actionbtn2" asp-route-id="@Model.Id" asp-action="Edit" asp-controller="Actor">Edit</button>
+
+
+            </div>
+        </form>
+
+        <div class="card-info">
+            <p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // JavaScript to handle image preview
+        document.getElementById("imageUpload").addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            const imagePreview = document.getElementById("imagePreview");
+
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.style.display = "block"; // Show the preview image
+                };
+
+                reader.readAsDataURL(file); // Convert the file into base64 string
+            }
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

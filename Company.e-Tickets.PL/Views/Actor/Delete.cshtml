@@ -1,0 +1,52 @@
+﻿@model ActorViewModel
+@{
+    ViewData["Title"] = Model.FullName;
+}
+
+<div class="text-danger" asp-validation-summary="All"></div>
+<div class="container">
+    <div class="card">
+        <div class="card-heading">
+            <h2>Are You Sure To Delete @Model.FullName?</h2>
+        </div>
+
+        <!-- Main form for the delete action -->
+        <form class="card-form" asp-action="Delete" asp-controller="Actor" method="post">
+            <div class="input" style="display: flex; justify-content: center; align-items: center;">
+               
+                <input type="hidden" asp-for="ProfilePictureURL" />
+                <!-- Preview the uploaded image or display the existing image -->
+                <img id="imagePreview"
+                     src="@(!string.IsNullOrEmpty(Model.ProfilePictureURL) ? Url.Content("~/Files/Imgs/" + Model.ProfilePictureURL) : "")"
+                     alt="Uploaded Image Preview"
+                     style="display:@(string.IsNullOrEmpty(Model.ProfilePictureURL) ? "none" : "block");" />
+                <span asp-validation-for="Image" class="text-danger"></span>
+            </div>
+
+            <div class="input">
+                <input asp-for="FullName" class="input-field" required readonly />
+            </div>
+
+            <div class="input">
+                <textarea asp-for="Bio" class="input-field" rows="4" required readonly></textarea>
+            </div>
+
+            <div class="action">
+                <!-- Button to cancel deletion -->
+                <button class="actionbtn" type="button" onclick="window.location.href='@Url.Action("Index", "Actor")'">Cancel</button>
+                <!-- Submit button to delete the producer -->
+                <button class="deletebtn2" type="submit" asp-route-id="@Model.Id">Delete</button>
+            </div>
+        </form>
+
+        <div class="card-info">
+            <p>By signing up you are agreeing to our <a href="#">Terms and Conditions</a></p>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

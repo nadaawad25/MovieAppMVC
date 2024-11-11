@@ -1,0 +1,15 @@
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\bin\Debug\net8.0\Company.e-Tickets.BLL.deps.json
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\bin\Debug\net8.0\Company.e-Tickets.BLL.dll
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\bin\Debug\net8.0\Company.e-Tickets.BLL.pdb
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\bin\Debug\net8.0\Company.e-Tickets.DAL.dll
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\bin\Debug\net8.0\Company.e-Tickets.DAL.pdb
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.csproj.AssemblyReference.cache
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.GeneratedMSBuildEditorConfig.editorconfig
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.AssemblyInfoInputs.cache
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.AssemblyInfo.cs
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.csproj.CoreCompileInputs.cache
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company..012E794B.Up2Date
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.dll
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\refint\Company.e-Tickets.BLL.dll
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\Company.e-Tickets.BLL.pdb
+D:\.NET\MVC_Projects\Company.e-Tickets.Soluation\Company.e-Tickets.BLL\obj\Debug\net8.0\ref\Company.e-Tickets.BLL.dll

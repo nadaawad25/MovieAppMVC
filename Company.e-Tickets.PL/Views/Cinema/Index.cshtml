@@ -1,0 +1,42 @@
+﻿@model IEnumerable<CinemaViewModel>
+
+
+@{
+    ViewData["Title"] = "Cinemas";
+}
+
+<div>
+    <h3 class="">Cinema</h3>
+</div>
+
+<div class="row">
+    <div class="col-md-8 offset-md-2">
+
+        <table class="table table-striped table-hover">
+            <thead>
+                <tr class="text-center">
+                    <td>@Html.DisplayNameFor(a => a.Logo)</td>
+                    <td>@Html.DisplayNameFor(a => a.Name)</td>
+                    <td>@Html.DisplayNameFor(a => a.Description)</td>
+                    <td>   </td>
+                    <td>   </td>
+                    <td>   </td>
+
+
+                </tr>
+            </thead>
+            <tbody>
+                @foreach (var Cinema in Model)
+                {
+                    <tr>
+                        <td class="align-middle"><img class="rounded-circle" style="max-width:150px" src="~/Files/Imgs/@Cinema.Logo" alt="Cinema" /></td>
+                        <td class="align-middle">@Cinema.Name</td>
+                        <td class="align-middle">@Html.DisplayFor(a => Cinema.Description)</td>
+                        <partial name="_ButtonPartialView" model="@Cinema.Id" class="align-middle">
+                    </tr>
+                }
+            </tbody>
+        </table>
+    </div>
+
+</div>

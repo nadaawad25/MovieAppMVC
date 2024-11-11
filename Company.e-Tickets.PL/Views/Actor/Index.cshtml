@@ -1,0 +1,42 @@
+﻿@model IEnumerable<ActorViewModel>
+
+
+@{
+    ViewData["Title"] = "Actors";
+}
+
+<div class="mainHeading__content" style="background-image: url('@Url.Content("~/Files/Imgs/global-home-bg-comp.png")');">
+        <article class="mainHeading__text">
+
+            <h2 class="mainHeading__title"> Actors </h2>
+            <p class="mainHeading__description">
+                Discover the stories and journeys of the actors who bring characters to life.
+            </p>
+
+            <form>
+                <input type="submit" asp-action="Create" class="cta" value="Add New Actor" />
+                <button class="cta2" asp-action="Index" asp-controller="Movie">Go To Movies</button>
+
+            </form>
+
+        </article>
+    </div>
+
+
+
+<div class="producer-container">
+    @foreach (var actor in Model)
+    {
+    
+        <div id="card">
+            <img src="~/Files/Imgs/@actor.ProfilePictureURL" alt="@actor.FullName" />
+            <h2>@actor.FullName</h2>
+            <p>@actor.Bio</p>
+            <span class="left bottom">
+                <partial name="_ButtonPartialView" model="@actor.Id.ToString()" class="align-middle">
+            </span>
+        </div>
+    }
+</div>
+
+

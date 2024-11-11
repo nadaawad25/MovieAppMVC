@@ -1,0 +1,67 @@
+﻿@model ProducerViewModel
+@{
+    ViewData["Title"] = "Edit Producer";
+}
+
+<div class="text-danger" asp-validation-summary="All"></div>
+<div class="container">
+    <div class="card">
+        <div class="card-heading">
+            <h2>Update @Model.FullName</h2>
+        </div>
+
+        <form class="card-form" asp-action="Edit" enctype="multipart/form-data">
+            <div class="card-image">
+                <div class="input">
+                    <label for="imageUpload" class="file-label">
+                        <!-- Hidden field to keep the old image URL -->
+                        <input type="hidden" asp-for="ProfilePictureURL" />
+                        <input asp-for="Image" type="file" class="input-img" id="imageUpload" />
+                        <span>Upload Image</span> <!-- Placeholder text when no image is selected -->
+                    </label>
+                    <!-- Preview the uploaded image or display the existing image -->
+                    <img id="imagePreview"
+                         src="@(!string.IsNullOrEmpty(Model.ProfilePictureURL) ? Url.Content("~/Files/Imgs/" + Model.ProfilePictureURL) : "")"
+                         alt="Uploaded Image Preview"
+                         style="display:@(string.IsNullOrEmpty(Model.ProfilePictureURL) ? "none" : "block"); width:150px; height:150px;" />
+                    <span asp-validation-for="Image" class="text-danger"></span>
+                     </div>
+
+            </div>
+
+            <partial name="PartialViews/_CreateEditPartialView" />
+
+
+            <div class="action">
+                <button class="actionbtn" asp-action="Index" asp-controller="Producer">Back</button>
+                <button class="actionbtn2" type="submit">Update</button>
+            </div>
+        </form>
+
+       
+    </div>
+</div>
+
+@section Scripts {
+    <script>
+        // JavaScript to handle image preview
+        document.getElementById("imageUpload").addEventListener("change", function (event) {
+            const file = event.target.files[0];
+            const imagePreview = document.getElementById("imagePreview");
+
+            if (file) {
+                const reader = new FileReader();
+
+                reader.onload = function (e) {
+                    imagePreview.src = e.target.result;
+                    imagePreview.style.display = "block"; // Show the preview image
+                };
+
+                reader.readAsDataURL(file); // Convert the file into base64 string
+            }
+        });
+    </script>
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

@@ -1,0 +1,238 @@
+﻿body {
+    margin: 0 auto;
+    padding: 0;
+    background: #222;
+    font-family: Arial, sans-serif;
+    font-family: courier;
+}
+
+.left {
+    left: 25px;
+}
+
+.right {
+    right: 25px;
+}
+
+.center {
+    text-align: center;
+}
+
+.bottom {
+    display: flex;
+    
+    flex-wrap: wrap;
+  justify-content:space-around;
+    bottom: 30px;
+}
+
+.producer-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 90px;
+    
+}
+
+#card {
+    position: relative;
+    width: 450px;
+    height: 300px;
+    padding: 25px;
+    margin: 20px;
+    background: black;
+    z-index: 5;
+    border-radius: 5px;
+    transition: transform 0.3s ease-in-out;
+}
+
+    #card:hover {
+        transform: scale(1.05);
+    }
+
+    #card img {
+        width: 150px;
+        height: 150px;
+        object-fit: contain; /* Ensures the entire image is visible without distortion */
+        float: left;
+        border-radius: 5px;
+        margin-right: 20px;
+    }
+
+
+    #card h2 {
+        font-family: courier;
+        color: antiquewhite;
+        margin: 0;
+        padding: 0;
+        font-size: 18pt;
+    }
+
+    #card p {
+        font-family: courier;
+        color: whitesmoke;
+        font-size: 14px;
+    }
+
+    #card span {
+        font-family: courier;
+        font-size: 20px;
+        color:black !important;
+    }
+    #card .left.bottom {
+        font-family: Courier, monospace;
+        font-size: 20px;
+        color: black !important;
+    }
+
+
+h3 {
+    text-align: center;
+    color: whitesmoke;
+    font-size: 2rem;
+  
+}
+
+
+.mainHeading__content {
+    background-image: linear-gradient(to bottom, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%), /* Shadow at the top */
+    linear-gradient(to top, rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0) 50%), /* Shadow at the bottom */
+    url('/Files/Imgs/global-home-bg-comp.png'); /* Background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 98vw; /* Nearly full width of the viewport */
+    height: 55vh; /* Adjust height as needed */
+    position: relative;
+    padding: 10px 40px;
+    /* Box shadow for outer shadow effect */
+    box-shadow: 0 20px 30px rgba(0, 0, 0, 0.5), /* Bottom shadow */
+    0 -10px 20px rgba(0, 0, 0, 0.7); /* Top shadow */
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.7), transparent), /* Bottom shadow */
+    linear-gradient(to bottom, rgba(0, 0, 0, 0.7), transparent), /* Top shadow */
+    url('/Files/Imgs/global-home-bg-comp.png'); /* Your background image */
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    width: 97.5vw; /* Full width */
+    height: 50vh; /* Adjust height as needed */
+    position: relative;
+    padding-left:20px;
+}
+
+
+.mainHeading__text {
+    z-index: 1;
+    color: whitesmoke;
+    background-color: black;
+    padding: 40px;
+    max-width: 620px;
+    margin-top: 100px;
+    margin-bottom:30px;
+    width: 70%;
+    backdrop-filter: blur(8px);
+    animation: text 0.8s 0.6s ease backwards;
+    position: relative;
+}
+
+    .mainHeading__text:before {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 100%;
+        background-color: black;
+       
+        top: 0;
+        left: 0;
+        animation: line 0.8s 0.6s ease backwards;
+    }
+
+@keyframes line {
+    0% {
+        right: 0;
+        width: 100%;
+        opacity: 0;
+    }
+}
+
+@keyframes text {
+    0% {
+        opacity: 0;
+        transform: translateX(200px);
+    }
+}
+
+.mainHeading__preTitle {
+    text-transform: uppercase;
+    font-weight: 600;
+    letter-spacing: 2px;
+    margin-bottom: 16px;
+    color: ghostwhite;
+}
+
+.mainHeading__title {
+    text-transform: uppercase;
+    font-weight: 200;
+    letter-spacing: 2px;
+    margin-bottom: 24px;
+    font-size: 40px;
+    color: ghostwhite;
+}
+
+.mainHeading__description {
+    letter-spacing: 0.5px;
+    font-size: 16px;
+    line-height: 26px;
+}
+
+
+
+@keyframes image {
+    0% {
+        opacity: 0;
+        transform: translateY(200px);
+    }
+}
+
+.cta {
+    padding: 16px 32px;
+    color: ghostwhite;
+    background-color: seagreen;
+    border: 1px solid rgba(99, 116, 152, 0.4);
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 32px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px rgba(99, 116, 152, 0.2);
+    transition: all 0.4s ease;
+}
+
+    .cta:hover {
+        border: 1px solid rgba(99, 116, 152, 0.1);
+        box-shadow: inset 0px -80px 0px rgba(99, 116, 152, 0.1);
+        transform: translateY(-5px);
+    }
+
+.cta2 {
+    padding: 16px 32px;
+    color: white;
+    background-color: transparent;
+    border: 1px solid rgba(99, 116, 152, 0.4);
+    font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 32px;
+    cursor: pointer;
+    box-shadow: inset 0px 0px 0px rgba(99, 116, 152, 0.2);
+    transition: all 0.4s ease;
+}
+
+    .cta2:hover {
+        border: 1px solid rgba(99, 116, 152, 0.1);
+        box-shadow: inset 0px -80px 0px rgba(99, 116, 152, 0.1);
+        transform: translateY(-5px);
+    }
+

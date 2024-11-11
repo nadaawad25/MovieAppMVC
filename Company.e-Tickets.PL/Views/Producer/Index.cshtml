@@ -1,0 +1,38 @@
+﻿@model IEnumerable<ProducerViewModel>
+
+
+@{
+    ViewData["Title"] = "Producers";
+}
+<div class="mainHeading__content" style="background-image: url('@Url.Content("~/Files/Imgs/global-home-bg-comp.png")');">
+    <article class="mainHeading__text">
+
+        <h2 class="mainHeading__title"> Producers </h2>
+        <p class="mainHeading__description">
+            Discover the stories and journeys of the Producers who bring characters to life.
+        </p>
+
+        <form>
+            <input type="submit" asp-controller="Producer" asp-action="Create" class="cta" value="Add New Producer" />
+            <button class="cta2" asp-action="Index" asp-controller="Movie">Go To Movies</button>
+
+        </form>
+
+    </article>
+</div>
+
+
+<div class="producer-container">
+    @foreach (var producer in Model)
+    {
+        <div id="card">
+            <img src="~/Files/Imgs/@producer.ProfilePictureURL" alt="@producer.FullName" />
+            <h2>@producer.FullName</h2>
+            <p>@producer.Bio</p>
+            <span class="left bottom">
+                <partial name="_ButtonPartialView" model="@producer.Id.ToString()" class="align-middle">
+            </span>
+     </div>
+    
+    }
+</div>

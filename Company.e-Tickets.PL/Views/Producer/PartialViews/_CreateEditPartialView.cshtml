@@ -1,0 +1,15 @@
+﻿@model ProducerViewModel
+
+
+
+<div class="input">
+    <input asp-for="FullName" class="input-field" required />
+    <label class="input-label">Full Name</label>
+    <span asp-validation-for="FullName" class="text-danger"></span>
+</div>
+
+<div class="input">
+    <textarea asp-for="Bio" class="input-field" rows="4" required></textarea>
+    <label class="input-label">Bio</label>
+    <span asp-validation-for="Bio" class="text-danger"></span>
+</div>
